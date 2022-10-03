@@ -11,7 +11,7 @@ header {
 }
 #Logis {
   margin-top: -0.3rem;
-  margin-left: 4rem;
+  margin-left: -35rem;
   opacity: 1;
   font-size: 2rem;
   font-weight: 800;
@@ -132,4 +132,39 @@ input {
   margin-top: -20rem;
   height: 60vh;
   float: right;
+}
+.second {
+  margin-top: 4rem;
+  display: flex;
+}
+.box {
+  height: 15vh;
+  width: 25vw;
+  margin-left: 7rem;
+}
+.box span {
+  margin-left: 0.3rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-size: 1.3rem;
+}
+.box p {
+  margin-left: 3.2rem;
+}
+.box h5 {
+  font-size: 1rem;
+  margin-left: 3.2rem;
+}
+.box i {
+  color: #1d3c6c;
+  margin-top: -0.4rem;
+  float: left;
+  margin-left: -1.9rem;
+  font-size: 4rem;
+}
+.second .box:hover {
+  color: #0d42ff;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
