@@ -14,7 +14,7 @@ header {
 }
 #Logis {
   margin-top: -0.3rem;
-  margin-left: -35rem;
+  margin-left: 5rem;
   opacity: 1;
   font-size: 2rem;
   font-weight: 800;
@@ -61,11 +61,10 @@ header button {
   margin-left: 0.5rem;
 }
 .first {
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  background-image: url(./slike/depositphotos_119168998-stock-illustration-dotted-world-map-of-hexagonal.webp);
+  margin-top: -7rem;
+  background-image: url(./slike/hero-bg.png);
   background-color: #0e1d34;
-  height: 80%;
+  height: 100%;
 }
 .first h1 {
   font-size: 3rem;
@@ -216,4 +215,69 @@ input {
   float: right;
   height: 50vh;
   width: 50vw;
+}
+.our {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+.our h1 {
+  font-size: 3.5rem;
+  position: static;
+  letter-spacing: 0.5rem;
+  color: #8686864e;
+}
+.our h3 {
+  font-size: 2rem;
+  position: relative;
+  top: -3.5rem;
+  font-weight: bold;
+  color: #1d3c6c;
+}
+.our p {
+  font-weight: bold;
+  top: -3.5rem;
+  position: relative;
+  font-size: 1.3rem;
+  color: #0d42ff;
+}
+.four {
+  flex-wrap: wrap;
+  display: flex;
+  color: #0e1d34;
+  height: 100%;
+  width: 100%;
+}
+.four .box {
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+  margin-right: -5rem;
+  border: 1px rgb(193, 192, 192) solid;
+  height: 68vh;
+  width: 28vw;
+}
+.four .box img {
+  height: 65%;
+  width: 100%;
+}
+.four .box h1 {
+  font-weight: bold;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  margin-left: 3.2rem;
+}
+.four .box p {
+  padding-right: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.four .box img:hover {
+  overflow: hidden;
+  transition: 0.5s ease-in;
+  transform: scale(1.1, 1.1);
+}
+.four .img {
+  overflow: hidden;
 }
