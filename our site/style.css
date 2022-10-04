@@ -371,3 +371,42 @@ input {
   color: #0d42ff;
   font-size: 0.8rem;
 }
+
+.paket2 {
+  width: 100%;
+  height: 30%;
+}
+.paket2 img {
+  clear: both;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: -15rem;
+  float: right;
+  height: 20rem;
+  width: 30rem;
+}
+.paket2 .box1 {
+  margin-left: 5rem;
+  clear: both;
+  margin-top: 8rem;
+  width: 60%;
+  float: left;
+}
+.paket2 .box1 h3 {
+  width: 40rem;
+  font-size: 1.7rem;
+  color: #09258e;
+}
+.paket2 .box1 p {
+  width: 48rem;
+  font-style: italic;
+}
+.paket2 .box1 h5 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.paket2 .box1 i {
+  color: #0d42ff;
+  font-size: 0.8rem;
+}
