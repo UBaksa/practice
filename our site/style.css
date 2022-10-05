@@ -550,3 +550,32 @@ input {
   background-color: #09258e;
   color: white;
 }
+.saul {
+  height: 20%;
+  width: 100%;
+  background-image: url(./slike/testimonials-bg.jpg);
+  background-size: 100% 100%;
+}
+.saul .slika {
+  margin-top: 5rem;
+  margin-left: 45rem;
+  border: 0.4rem rgba(128, 128, 128, 0.605) solid;
+  background-image: url(./slike/testimonials-2.jpg);
+  background-size: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3rem;
+}
+.saul h2 {
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  margin-top: 0.5rem;
+  margin-left: 41rem;
+  color: white;
+}
+.saul h5 {
+  margin-top: -0.5rem;
+  margin-left: 45.5rem;
+  color: gray;
+  font-family: "Inter", sans-serif;
+}
