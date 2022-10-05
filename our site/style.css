@@ -389,7 +389,7 @@ input {
   margin-left: 5rem;
   clear: both;
   margin-top: 8rem;
-  width: 60%;
+  width: 50%;
   float: left;
 }
 .paket2 .box1 h3 {
@@ -407,6 +407,40 @@ input {
   font-weight: 400;
 }
 .paket2 .box1 i {
+  color: #0d42ff;
+  font-size: 0.8rem;
+}
+.paket3 {
+  width: 100%;
+  height: 30%;
+}
+.paket3 img {
+  margin-left: 5rem;
+  margin-top: 10rem;
+  float: left;
+  height: 20rem;
+  width: 30rem;
+}
+.paket3 .box2 {
+  margin-top: 8rem;
+  width: 60%;
+  float: right;
+}
+.paket3 .box2 h3 {
+  width: 45rem;
+  font-size: 1.7rem;
+  color: #09258e;
+}
+.paket3 .box2 p {
+  width: 48rem;
+  font-style: italic;
+}
+.paket3 .box2 h5 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.paket3 .box2 i {
   color: #0d42ff;
   font-size: 0.8rem;
 }
