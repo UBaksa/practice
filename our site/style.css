@@ -480,8 +480,9 @@ input {
   color: #0d42ff;
 }
 .price {
+  flex-wrap: wrap;
   height: 70%;
-  width: 80%;
+  width: 100%;
   display: flex;
 }
 .price .box1 {
@@ -491,7 +492,7 @@ input {
   padding: 3rem;
   margin: auto;
   height: 30%;
-  width: 35%;
+  width: 28%;
 }
 .price .box1 h2 {
   margin-top: 1rem;
@@ -518,5 +519,34 @@ input {
   color: rgba(0, 0, 0, 0.605);
 }
 #cross {
-  color: rgba(0, 0, 0, 0.295);
+  color: rgba(0, 0, 0, 0.317);
+}
+.price .button {
+  font-weight: 500;
+  color: #09258e;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  width: 9rem;
+  border: #0b34c6 1px solid;
+}
+.price .button:hover {
+  height: 3.5rem;
+  width: 9rem;
+  color: white;
+  transition: 1s;
+  background-color: #09258e;
+  border: 1px #09258e;
+}
+.price .buttonn {
+  font-weight: 500;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+  width: 9rem;
+  height: 3.5rem;
+  background-color: #09258e;
+  color: white;
 }
