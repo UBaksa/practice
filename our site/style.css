@@ -338,10 +338,12 @@ input {
   background-color: #0d42ff;
 }
 .paket {
+  clear: both;
   width: 100%;
   height: 30%;
 }
 .paket img {
+  clear: both;
   margin-left: 5rem;
   margin-top: 5rem;
   float: left;
@@ -349,7 +351,8 @@ input {
   width: 30rem;
 }
 .paket .box2 {
-  margin-top: 8rem;
+  clear: both;
+  margin-top: -18rem;
   width: 60%;
   float: right;
 }
@@ -373,12 +376,13 @@ input {
 }
 
 .paket2 {
+  clear: both;
   width: 100%;
   height: 30%;
 }
 .paket2 img {
   clear: both;
-  margin-left: 5rem;
+  margin-left: 2rem;
   margin-right: 5rem;
   margin-top: -15rem;
   float: right;
@@ -411,10 +415,12 @@ input {
   font-size: 0.8rem;
 }
 .paket3 {
+  clear: both;
   width: 100%;
   height: 30%;
 }
 .paket3 img {
+  clear: both;
   margin-left: 5rem;
   margin-top: 10rem;
   float: left;
@@ -422,11 +428,13 @@ input {
   width: 30rem;
 }
 .paket3 .box2 {
-  margin-top: 8rem;
+  clear: both;
+  margin-top: -18rem;
   width: 60%;
   float: right;
 }
 .paket3 .box2 h3 {
+  font-style: normal;
   width: 45rem;
   font-size: 1.7rem;
   color: #09258e;
@@ -443,4 +451,72 @@ input {
 .paket3 .box2 i {
   color: #0d42ff;
   font-size: 0.8rem;
+}
+.pricing {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 35rem;
+  margin-left: 0rem;
+}
+.pricing h1 {
+  margin-left: 0.8rem;
+  font-size: 3.5rem;
+  position: static;
+  letter-spacing: 0.5rem;
+  color: #8686864e;
+}
+.pricing h3 {
+  font-size: 2rem;
+  position: relative;
+  top: -3.5rem;
+  font-weight: bold;
+  color: #1d3c6c;
+}
+.pricing p {
+  font-weight: bold;
+  top: -3.5rem;
+  position: relative;
+  font-size: 1.3rem;
+  color: #0d42ff;
+}
+.price {
+  height: 70%;
+  width: 80%;
+  display: flex;
+}
+.price .box1 {
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 3rem;
+  margin: auto;
+  height: 30%;
+  width: 35%;
+}
+.price .box1 h2 {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  color: #0b34c6;
+  display: inline-block;
+}
+.price .box1 span {
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.price .box1 .text span {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.605);
+}
+.price .box1 .text i {
+  margin-bottom: 0.9rem;
+  font-size: 0.9rem;
+  color: green;
+}
+#cros {
+  color: rgba(0, 0, 0, 0.605);
+}
+#cross {
+  color: rgba(0, 0, 0, 0.295);
 }
