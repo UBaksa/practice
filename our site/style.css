@@ -666,9 +666,9 @@ input {
   position: relative;
 }
 footer {
+  position: relative;
   margin-top: 5rem;
   width: 100%;
-  height: 50%;
   background-color: #0e1d34;
 }
 footer .logis {
@@ -807,4 +807,16 @@ footer .ikone i {
 }
 .contact span {
   color: white;
+}
+.copy {
+  text-align: center;
+  position: relative;
+  top: -33rem;
+  color: white;
+}
+.copy p {
+  font-size: 0.8rem;
+}
+.copy span {
+  font-size: 0.9rem;
 }
