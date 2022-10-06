@@ -665,3 +665,146 @@ input {
   top: -4rem;
   position: relative;
 }
+footer {
+  margin-top: 5rem;
+  width: 100%;
+  height: 50%;
+  background-color: #0e1d34;
+}
+footer .logis {
+  padding-left: 6rem;
+  padding-top: 2rem;
+}
+footer .logis a {
+  color: white;
+  text-decoration: none;
+}
+footer .logis p {
+  font-size: 0.9rem;
+  color: white;
+  width: 30rem;
+}
+footer .ikone {
+  margin-top: 2rem;
+  margin-left: 6.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+footer .ikone i {
+  padding-left: 0.6rem;
+  padding-top: 0.6rem;
+  color: rgba(158, 158, 158, 0.717);
+}
+.ikone .tviter {
+  border-radius: 3rem;
+  border: 1px rgba(158, 158, 158, 0.717) solid;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.ikone .insta {
+  border-radius: 3rem;
+  border: 1px rgba(158, 158, 158, 0.717) solid;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.ikone .face {
+  border-radius: 3rem;
+  border: 1px rgba(158, 158, 158, 0.717) solid;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.ikone .i {
+  border-radius: 3rem;
+  border: 1px rgba(158, 158, 158, 0.717) solid;
+  width: 2.3rem;
+  height: 2.3rem;
+}
+.ikone .tviter:hover {
+  transition: 0.5s ease;
+  border: 1px white solid;
+}
+.ikone .tviter:hover i {
+  transition: 0.5s ease;
+  color: white;
+}
+.ikone .insta:hover {
+  transition: 0.5s ease;
+  border: 1px white solid;
+}
+.ikone .insta:hover i {
+  transition: 0.5s ease;
+  color: white;
+}
+.ikone .face:hover {
+  transition: 0.5s ease;
+  border: 1px white solid;
+}
+.ikone .face:hover i {
+  transition: 0.5s ease;
+  color: white;
+}
+.ikone .i:hover {
+  transition: 0.5s ease;
+  border: 1px white solid;
+}
+.ikone .i:hover i {
+  transition: 0.5s ease;
+  color: white;
+}
+.usefull {
+  top: -10rem;
+  left: 40rem;
+  position: relative;
+  width: 10rem;
+}
+.usefull h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.usefull h4 {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: rgba(220, 220, 220, 0.566);
+}
+.serviceee {
+  top: -22.9rem;
+  left: 53rem;
+  position: relative;
+  width: 10rem;
+}
+.serviceee h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.serviceee h4 {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: rgba(220, 220, 220, 0.566);
+}
+.contact {
+  top: -35.6rem;
+  left: 65rem;
+  position: relative;
+  width: 15rem;
+}
+.contact h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.contact h4 {
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: rgba(220, 220, 220, 0.566);
+}
+.contact h5 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+.contact span {
+  color: white;
+}
