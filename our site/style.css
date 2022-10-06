@@ -551,7 +551,7 @@ input {
   color: white;
 }
 .saul {
-  height: 20%;
+  height: 50%;
   width: 100%;
   background-image: url(./slike/testimonials-bg.jpg);
   background-size: 100% 100%;
@@ -578,4 +578,55 @@ input {
   margin-left: 45.5rem;
   color: gray;
   font-family: "Inter", sans-serif;
+}
+.saul .zvezde i {
+  font-size: 1.2rem;
+  color: gold;
+}
+.saul .zvezde {
+  margin-left: 45rem;
+}
+.saul h1 {
+  font-size: 3.5rem;
+  margin-left: 25rem;
+  color: rgb(156, 155, 155);
+}
+.saul p {
+  margin-left: 28rem;
+  text-align: center;
+  width: 40rem;
+  margin-top: -3rem;
+  font-style: italic;
+  color: white;
+}
+#zarez {
+  margin-top: -2rem;
+  margin-left: 59rem;
+}
+.asked {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 0rem;
+}
+.asked h1 {
+  margin-left: 0.8rem;
+  font-size: 3.5rem;
+  position: static;
+  letter-spacing: 0.5rem;
+  color: #8686864e;
+}
+.asked h3 {
+  font-size: 2rem;
+  position: relative;
+  top: -3.5rem;
+  font-weight: bold;
+  color: #1d3c6c;
+}
+.asked p {
+  font-weight: bold;
+  top: -3.5rem;
+  position: relative;
+  font-size: 1.3rem;
+  color: #0d42ff;
 }
