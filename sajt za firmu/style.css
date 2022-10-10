@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: sticky;
   top: 0;
   opacity: 0.8;
@@ -21,18 +22,12 @@ header h3 {
   letter-spacing: 0.3rem;
   font-family: "Ms Madi", cursive;
 }
-.first {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(./slike/csm_Teaser_Service_Hotline_Weltkarte_c479a825fc.webp);
-}
 header a {
   color: rgb(79, 79, 254);
   text-decoration: none;
 }
 header a:hover {
-  font-size: 1.1rem;
-  transition: 1s ease;
+  transition: 0.3s ease;
   font-weight: bold;
 }
 header ul {
@@ -50,6 +45,7 @@ header .loptica {
   width: 4rem;
   height: 1rem;
   font-size: 1.1rem;
+  margin-bottom: -2.2rem;
 }
 header:hover .loptica {
   animation: levo 5s alternate forwards infinite;
@@ -72,4 +68,41 @@ header img {
   25% {
     transform: translateX(91vw);
   }
+  50% {
+    transform: translateX(0vw);
+  }
+  75% {
+    transform: translateX(91vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+.first {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./slike/csm_Teaser_Service_Hotline_Weltkarte_c479a825fc.webp);
+}
+.first .box1 {
+  padding: 2rem;
+  height: 100%;
+  width: 50%;
+}
+.first .box1 h2 {
+  color: rgb(68, 68, 68);
+  font-family: "Noto Sans Buhid", sans-serif;
+  margin-bottom: 0.5rem;
+}
+.first .box1 h5 {
+  color: gray;
+  font-style: italic;
+}
+.first .box1 p {
+  width: 45rem;
+}
+.first .box2 {
+  width: 50%;
 }
