@@ -80,9 +80,10 @@ header img {
   }
 }
 .first {
+  background-color: #92e1e2;
   display: flex;
   width: 100%;
-  height: 80%;
+  height: 90%;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(./slike/csm_Teaser_Service_Hotline_Weltkarte_c479a825fc.webp);
@@ -93,6 +94,7 @@ header img {
   width: 50%;
 }
 .first .box1 h2 {
+  margin-top: 2rem;
   color: rgb(68, 68, 68);
   font-family: "Noto Sans Buhid", sans-serif;
   margin-bottom: 0.5rem;
@@ -105,13 +107,24 @@ header img {
 .first .box1 p {
   font-family: "Kanit", sans-serif;
   color: black;
-  /* color: rgb(79, 79, 254); */
-  margin-top: 1.5rem;
   font-size: 1.3rem;
   width: 45rem;
 }
+.first #par {
+  letter-spacing: 0.2rem;
+  color: #1c2e4c;
+  font-weight: bold;
+  font-family: "Ms Madi", cursive;
+  font-size: 2rem;
+}
 .first .box2 {
+  padding-left: 5rem;
+  height: 100%;
   width: 50%;
+}
+.first .box2 img {
+  height: 100%;
+  width: 100%;
 }
 #prvi {
   padding-left: 1rem;
@@ -125,7 +138,11 @@ header img {
   font-size: 1.4rem;
   color: black;
 }
+.first .box1 ul {
+  margin-top: 3.5rem;
+}
 .first .box1 li {
+  color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -136,6 +153,45 @@ header img {
   font-family: "Kanit", sans-serif;
 }
 #drugi {
+  margin-bottom: 2rem;
   border-bottom-left-radius: 1rem;
   /* border-bottom-right-radius: 1rem; */
+}
+.naslov {
+  margin-top: 2rem;
+  height: 15%;
+  width: 100%;
+  padding: auto;
+}
+.naslov h1 {
+  color: #1c2e4c5f;
+  font-size: 3rem;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  margin-left: 24rem;
+}
+.naslov h5 {
+  color: #1c2e4c;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-size: 2.5rem;
+  margin-top: -3.7rem;
+  margin-left: 26rem;
+}
+.second {
+  padding-top: 2rem;
+  background-color: #72b2e4;
+  margin-top: 4rem;
+  background-image: url(./slike/257-2573284_30-am-1733353-world-map2-dotted-world-map.png);
+  height: 100%;
+  width: 100%;
+}
+.second .kartice {
+  margin-left: 2rem;
+  padding: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  display: flex;
 }
