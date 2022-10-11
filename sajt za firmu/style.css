@@ -51,11 +51,12 @@ header:hover .loptica {
   animation: levo 5s alternate forwards infinite;
 }
 header:hover {
+  transform: scale(1, 1.02);
   transition: 1s ease-in;
   opacity: 1;
 }
 header img {
-  left: 22rem;
+  left: 27rem;
   top: 0.5rem;
   position: absolute;
   width: 20rem;
@@ -97,12 +98,44 @@ header img {
   margin-bottom: 0.5rem;
 }
 .first .box1 h5 {
+  font-size: 1rem;
   color: gray;
   font-style: italic;
 }
 .first .box1 p {
+  font-family: "Kanit", sans-serif;
+  color: black;
+  /* color: rgb(79, 79, 254); */
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
   width: 45rem;
 }
 .first .box2 {
   width: 50%;
+}
+#prvi {
+  padding-left: 1rem;
+  /* border-top-left-radius: 1rem; */
+  border-top-right-radius: 1rem;
+  margin-left: -2rem;
+  list-style-type: none;
+  width: 36rem;
+  background-image: linear-gradient(#6cd0ff, #1c2e4c);
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4rem;
+  color: black;
+}
+.first .box1 li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  width: 36rem;
+  background-image: linear-gradient(#576182, #1fc5a8);
+  margin-left: -2rem;
+  list-style: none;
+  font-family: "Kanit", sans-serif;
+}
+#drugi {
+  border-bottom-left-radius: 1rem;
+  /* border-bottom-right-radius: 1rem; */
 }
