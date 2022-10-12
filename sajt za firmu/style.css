@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 header {
+  z-index: 999;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   position: sticky;
   top: 0;
@@ -108,9 +109,15 @@ header img {
   margin-bottom: 0.5rem;
 }
 .first .box1 h5 {
+  cursor: default;
   font-size: 1rem;
   color: gray;
   font-style: italic;
+}
+.first .box1 h5:hover {
+  color: white;
+  transition: 1s ease;
+  font-size: 1.05rem;
 }
 .first .box1 p {
   font-family: "Kanit", sans-serif;
@@ -125,6 +132,11 @@ header img {
   font-family: "Ms Madi", cursive;
   font-size: 2rem;
 }
+.first #par:hover {
+  cursor: default;
+  transition: 0.8s ease-in-out;
+  color: white;
+}
 .first .box2 {
   padding-left: 5rem;
   height: 100%;
@@ -133,6 +145,10 @@ header img {
 .first .box2 img {
   height: 100%;
   width: 100%;
+}
+.first .box2 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 1s ease-in-out;
 }
 #prvi {
   padding-left: 1rem;
@@ -147,7 +163,12 @@ header img {
   color: black;
 }
 .first .box1 ul {
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
+}
+.first .box1 ul:hover {
+  cursor: default;
+  transition: 0.8s ease-in;
+  transform: scale(1.01, 1.01);
 }
 .first .box1 li {
   color: black;
@@ -204,6 +225,8 @@ header img {
   display: flex;
 }
 .kartice .box1 {
+  z-index: 500;
+  opacity: 0.9;
   margin-bottom: 2rem;
   margin-left: 1rem;
   margin-right: 1.5rem;
@@ -230,6 +253,12 @@ header img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   width: 100%;
   height: 45%;
+}
+.kartice .box1:hover {
+  opacity: 1;
+  cursor: normal;
+  transition: 1s ease-in-out;
+  transform: scale(1.01, 1.01);
 }
 .box1 .img img {
   border-top-left-radius: 0.8rem;
