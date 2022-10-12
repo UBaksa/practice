@@ -13,37 +13,45 @@ header {
   height: 25%;
 }
 header h1 {
+  font-size: 2rem;
+  margin-top: -2rem;
   color: white;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 0.25rem;
 }
 header h3 {
+  margin-bottom: 1.5rem;
+  margin-top: -0.5rem;
+  font-size: 1.5rem;
   color: rgb(79, 79, 254);
   letter-spacing: 0.3rem;
   font-family: "Ms Madi", cursive;
 }
 header a {
+  padding-top: 0.5rem;
   color: rgb(79, 79, 254);
   text-decoration: none;
 }
 header a:hover {
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   font-weight: bold;
 }
 header ul {
+  padding-top: -2rem;
+  margin-top: -5rem;
   font-family: "Poppins", sans-serif;
   gap: 2rem;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: flex-end;
   display: flex;
   list-style-type: none;
 }
 header .loptica {
   border-radius: 2rem;
-  margin-top: 1rem;
+  margin-top: 2.1rem;
   background-image: linear-gradient(white, aqua);
   width: 4rem;
-  height: 1rem;
+  height: 0.5rem;
   font-size: 1.1rem;
   margin-bottom: -2.2rem;
 }
@@ -56,11 +64,11 @@ header:hover {
   opacity: 1;
 }
 header img {
-  left: 27rem;
-  top: 0.5rem;
+  left: 24rem;
+  top: -0.2rem;
   position: absolute;
-  width: 20rem;
-  height: 10rem;
+  width: 12rem;
+  height: 5rem;
 }
 @keyframes levo {
   0% {
