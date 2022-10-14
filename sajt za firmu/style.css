@@ -200,6 +200,12 @@ header img {
   letter-spacing: 0.8rem;
   margin-left: 24rem;
 }
+.naslov h4 {
+  color: gainsboro;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 30rem;
+}
 .naslov h5 {
   color: #1c2e4c;
   font-weight: bolder;
