@@ -284,3 +284,34 @@ header img {
   background-color: #576182;
   color: gainsboro;
 }
+#prvili {
+  color: #1c2e4c;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  list-style: none;
+}
+.third {
+  margin-top: 5rem;
+}
+.third .box p {
+  color: #576182;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.3rem;
+  margin-left: 2.8rem;
+}
+.third .box1 {
+  margin-top: 2rem;
+}
+.third .box h2 {
+  color: #1c2e4c;
+  font-family: "Kanit", sans-serif;
+  margin-left: 2.8rem;
+}
+.third .box li {
+  font-size: 1.1rem;
+  color: #576182;
+  font-family: "Kanit", sans-serif;
+  margin-left: 2rem;
+  list-style: square;
+}
