@@ -198,13 +198,13 @@ header img {
   opacity: 0.5;
   text-transform: uppercase;
   letter-spacing: 0.8rem;
-  margin-left: 24rem;
+  margin-left: 20rem;
 }
 .naslov h4 {
   color: gainsboro;
   font-size: 2rem;
   font-weight: bolder;
-  margin-left: 30rem;
+  margin-left: 26rem;
 }
 .naslov h5 {
   color: #1c2e4c;
@@ -213,7 +213,7 @@ header img {
   letter-spacing: 0.8rem;
   font-size: 2.5rem;
   margin-top: -3.7rem;
-  margin-left: 26rem;
+  margin-left: 22rem;
 }
 .second {
   padding-top: 2rem;
@@ -234,7 +234,7 @@ header img {
   z-index: 500;
   opacity: 0.9;
   margin-bottom: 2rem;
-  margin-left: 1rem;
+  margin-left: 4rem;
   margin-right: 1.5rem;
   border-top-left-radius: 0.8rem;
   border-top-right-radius: 0.8rem;
