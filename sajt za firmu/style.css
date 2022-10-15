@@ -301,7 +301,6 @@ header img {
   margin-left: 2.8rem;
 }
 .third .box1 {
-  margin-top: 2rem;
 }
 .third .box h2 {
   color: #1c2e4c;
@@ -314,4 +313,17 @@ header img {
   font-family: "Kanit", sans-serif;
   margin-left: 2rem;
   list-style: square;
+}
+.box1 .box{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(220, 220, 220, 0.387);
+  float:left
+}
+.third .box1 img{
+  margin-top: -2rem;
+  float: right;
+  width: 40rem;
+  height: 20rem;
 }
