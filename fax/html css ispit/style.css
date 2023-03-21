@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 500px;
+}
+
+#active {
+  background-color: #33b5e5;
+}
+.div {
+  width: 100%;
+  background-color: #10756f;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+.div h1 a {
+  margin-left: 1rem;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.el {
+  height: 7vh;
+  background-color: rgba(10, 190, 255, 0.641);
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+.el a {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+.middle {
+  margin-top: 2rem;
+}
+.middle iframe {
+  margin-top: 1rem;
+}
+.middle p {
+  text-align: justify;
+}
+.last {
+  margin-top: 1.8vh;
+  height: 60vh;
+  background-color: #33b5e5;
+}
+.img {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+}
+.img img {
+  width: 80%;
+}
+.last {
+  text-align: center;
+  color: #fff;
+}
+.last h1 {
+  font-size: 2rem;
+}
+#prijava {
+  color: white;
+  background-color: #10756f;
+}
+.div1 {
+  width: 100%;
+  background-color: #10756f;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0px;
+}
+.div1 h1 {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.middle1 {
+  margin-top: 5vh;
+}
+.middle1 button {
+  margin-top: 10px;
+}
+.middle1 p {
+  margin-top: 5px;
+  text-align: end;
+}
+.middle2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.middle2 .card {
+  margin-left: 2px;
+}
