@@ -1,13 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vezba JS 1</title>
     <script src="./app.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <p id="rezultat">Rezultat naseg JS koda je:</p>
+    <script>
+      //   document.write("hello world");
+      //   console.log("hello world");
+      //   document.getElementById("rezultat").innerHTML = "hello world";
+      //   var a = 5;
+      //   var b = 11;
+      //   console.log(a + b);
+      //   console.log(a - b);
+      //   console.log(a * b);
+      //   console.log(a / b);
+      //   1267
+      // 500,100,1 dinar
+
+      //   var iznos = prompt("unesite iznos para", 1267);
+      //   var n500 = parseInt(iznos / 500);
+      //   var n100 = parseInt((iznos % 500) / 100);
+      //   var n1 = parseInt(iznos % 100);
+      //   console.log(
+      //     "Za trazeni iznos potrebno je " +
+      //       n500 +
+      //       "novcanica od 500 dinara" +
+      //       n100 +
+      //       "novcanica od 100 dinara" +
+      //       n1 +
+      //       "novcanica od 1 dinar"
+      //   );
+      //   var sati = Number(prompt("unesite vreme"));
+      //   if (isNaN(sati)) {
+      //     document.write("Niste uneli ispravnu vrednost za br casova!");
+      //   } else if (sati < 0 || sati > 23) {
+      //     document.write("Niste uneli ispravnu vrednost za br casova!");
+      //   } else {
+      //     if (sati < 10) {
+      //       document.write("DOBRO JUTRO!");
+      //     } else if (sati >= 10 && sati <= 18) {
+      //       document.write("DOBAR DAN!");
+      //     } else {
+      //       document.write("DOBRO VECE!");
+      //     }
+      //   }
+      //   var i, j;
+      //   var n = Number(prompt("unesite broj redova"));
+      //   for (i = 0; i < n; i++) {
+      //     var text = "";
+      //     for (j = 0; i < n; j++) {
+      //       text += " *";
+      //     }
+      //     document.write(text + "<br>");
+      //   }
+      //   var i, j;
+      //   var n = Number(prompt("unesite broj redova"));
+      //   for (i = 0; i < n; i++) {
+      //     for (j = 0; i < n; j++) {
+      //       text += " +";
+      //     }
+      //     document.write(text + "<br>");
+      //   }
+      //   var eps = Number(prompt("Unesite eps"));
+      //   if (!isNaN(eps)) {
+      //     var znak = 1;
+      //     var i = 1;
+      //     var s = 0;
+      //     do {
+      //       var clan = (znak * 1) / i;
+      //       s += clan;
+      //       znak = -znak;
+      //       i += 2;
+      //     } while (Math.abs(clan) >= eps);
+      //     {
+      //       var PI = 4 * s;
+      //       document.write("PI iznosi " + PI);
+      //     }
+      //   }
+      //   function randomBroj() {
+      //     var broj = Math.floor(Math.random() * 10);
+      //   }
+      //   document.write(randomBroj());
+      var datum = newDate();
+      var m = datum.getMonth();
+      function nadjiMesec(mesec) {
+        switch (mesec) {
+          case 0:
+            return "januar";
+          case 1:
+            return "februar";
+          case 2:
+            return "mart";
+          case 3:
+            return "april";
+          case 4:
+            return "maj";
+          case 5:
+            return "jun";
+          case 6:
+            return "jul";
+          case 7:
+            return "avgust";
+          case 8:
+            return "septembar";
+          case 9:
+            return "oktobar";
+          case 10:
+            return "novembar";
+          case 11:
+            return "decembar";
+          default:
+            return "greska";
+        }
+      }
+
+      // function nadjiMesecPrekoNiza(mesec) {
+      //   const nizMeseci = [
+      //     "januar",
+      //     "februar",
+      //     "mart",
+      //     "april",
+      //     "maj",
+      //     "jun",
+      //     "jul",
+      //     "avgust",
+      //     "septembar",
+      //     "oktobar",
+      // //     "novembar",
+      // //     "decembar",
+      // //   ];
+      // //   return nizMeseci[mesec];
+      // // }
+
+      // // function brojDana(mesec) {
+      // //   let i = nadjiMesecPrekoNiza(mesec);
+      // // // }
+      // // document.write("Prosek studenta je:" + izracunajProsek());
+
+      // // function izracunajProsek() {
+      // //   const stOcene = prompt("Unesite ocene studenta razdvojene razmakom");
+      // //   const ocene = stOcene.split(" ");
+      // //   const duzina = ocene.length;
+      // //   let S = 0;
+      // //   let brojOcena = 0;
+      // //   for (let i = 0; i < duzina; i++) {
+      // //     const ocena = Number(ocene[i]);
+      // //     if (!isNaN(ocena) && ocena > 5 && ocena <= 10) {
+      // //       S += ocena;
+      // //       brojOcena++;
+      // //     }
+      // //   }
+      // //   console.log(ocene.join(","));
+      // //   document.write("Prosecna ocena studenta je " + S / brojOcena);
+      // // }
+      // // var imena = prompt("Unesite imena za sortiranje");
+      // // var brojevi = prompt("Unesite brojeve za sortiranje");
+      // // ispisSortiranihImena(imena);
+      // // ispisSortiranihBrojeva(brojevi);
+
+      // // function ispisSortiranihImena(strImena) {
+      // //   let nizImena = strImena.split(",");
+      // //   let sortImena = nizImena.sort();
+      // //   console.log(nizImena.join(","));
+      // //   document.write(sortImena.join(","));
+      // // }
+      // var imena = prompt("Unesite imena");
+      // let nizImena2 = imena.split(" ");
+      // const poslednjeIme = nizImena2.pop();
+      // console.log(nizImena2.toString());
+
+      // let nizImena3 = imena.split(" ");
+      // nizImena3.slice(2, 3);
+      // console.log(nizImena3.toString());
+
+      // let nizImena4 = imena.split(" ");
+      // nizImena4.unshift("Ajla");
+      // console.log(nizImena4.toString());
+
+      // let nizImena5 = imena.split(" ");
+      // nizImena3.push("Ajla");
+      // console.log(nizImena5.toString());
+
+      // let nizImena6 = imena.split(" ");
+      // nizImena3.splice(2, 3);
+      // console.log(nizImena3.toString(2, 0, "Dzejlana"));
+
+      // let nizImena7 = imena.split(" ");
+      // nizImena3.splice(1, 2, "Dzejlana", "Ajla");
+      // console.log(nizImena7.toString());
+    </script>
+  </body>
 </html>
