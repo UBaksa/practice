@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      .plavi {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <div>
-        <a href="#">O nama</a>
-        <a href="#"></a>
-        <a href="#"></a>
-      </div>
-      <div>desno</div>
-    </nav>
+    <p id="rezultat">Prvi paragraf</p>
+    <p class="plavi">Drugi paragraf</p>
+    <p class="plavi">Treci paragraf</p>
+    <script>
+      document.getElementById("rezultat").innerHTML = "Neki drugi tekst";
+      let plavi = document.getElementsByClassName("plavi");
+      for (let i = 0; i < plavi.length; i++) {
+        plavi[i];
+      }
+    </script>
   </body>
 </html>
